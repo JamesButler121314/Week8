@@ -15,6 +15,7 @@ os.chdir(directory)
 filename = input("What is the name of your file?  ");
 filename = filename + '.csv'
 
+#Makesure to save the input as a .csv file in their directory/file#
 
 with open (filename, "w") as f:
 	f.write(input("Enter your name, address, and phone number. "));
